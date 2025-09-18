@@ -97,6 +97,38 @@ body {
   100% { opacity: 1; }
 }
 
+.planet2
+{
+  position:absolute;
+  width:200px;
+  height:200px;
+  background:radial-gradient(circle at 30%, #ff6b6b, #8e44ad);
+  top:80%;
+  left:40%;
+  border-radius:50%;
+
+
+}
+
+.orbit
+{
+  color:white;
+  position:absolute;
+  top:40px;
+  left:70px;
+  transition:transform 3s ease-in-out;
+  
+
+
+}
+
+.orbit:hover
+{
+   
+  transform:translate(-100%,-30%)scale(2.0);
+
+}
+
     </style>
 </head>
 <body>
@@ -115,6 +147,11 @@ body {
         </div>
       </div>
     </div>
+  </div>
+  
+  
+  <div class="planet2">
+  <p class="orbit">Explore</p>
   </div>
 </body>
 </html>
